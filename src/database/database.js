@@ -1,10 +1,10 @@
-/*import Sequelize from "sequelize";
+import Sequelize from "sequelize";
 
 export const sequelize = new Sequelize({
     dialect: "sqlite",
     storage: '/database/database.sqlite',
-  });*/
-  import { Sequelize } from 'sequelize';
+  });
+/*  import { Sequelize } from 'sequelize';
 
   export const sequelize = new Sequelize('bd_controlcolas', 'root', '', {
     host: 'localhost',
@@ -18,7 +18,7 @@ export const sequelize = new Sequelize({
     .catch(err => {
       console.error('Unable to connect to the database:', err);
   });
-
+*/
   
 //* export const sequelize = new Sequelize(
 //  "projectsdb", // db name,
